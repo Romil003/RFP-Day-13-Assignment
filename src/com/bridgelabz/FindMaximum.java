@@ -4,11 +4,11 @@ public class FindMaximum {
 
 
 
-    public static int FindMax(Integer[] array){
+    public static float FindMax(Float[] array){
 
-        int max = 0;
+        float max = 0.0F;
         for(Integer i = 0 ; i < array.length ; i++){
-            for (Integer j = i+1 ; j< array.length ; j++){
+            for (Integer j = 0 ; j<array.length ; j++){
                 if(array[i].compareTo(array[j]) == 1 && array[i]>max ){
                     max = array[i];
                 }
@@ -18,8 +18,8 @@ public class FindMaximum {
     }
 
     public static void main(String[] args) {
-        Integer[] integers = {12,25,2};
-        System.out.println("Maximum Number is " + FindMax(integers));
+        Float[] floats = {21.5F , 11.5F , 31.5F };
+        System.out.println("Maximum Number is " + FindMax(floats));
 
 
 
