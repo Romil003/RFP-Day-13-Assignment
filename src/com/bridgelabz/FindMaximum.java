@@ -8,7 +8,7 @@ public class FindMaximum {
 
         int max = 0;
         for(Integer i = 0 ; i < array.length ; i++){
-            for (Integer j = i+1 ; j< array.length ; j++){
+            for (Integer j = 0 ; j< array.length ; j++){
                 if(array[i].compareTo(array[j]) == 1 && array[i]>max ){
                     max = array[i];
                 }
