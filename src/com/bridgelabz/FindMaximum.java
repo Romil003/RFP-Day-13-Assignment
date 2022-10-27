@@ -18,7 +18,7 @@ public class FindMaximum {
     }
 
     public static void main(String[] args) {
-        Float[] floats = {21.5F , 11.5F , 31.5F };
+        Float[] floats = {21.5F , 11.5F , 31.5F};
         System.out.println("Maximum Number is " + FindMax(floats));
 
 
